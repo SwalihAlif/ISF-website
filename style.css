@@ -5,8 +5,9 @@
     line-height: 30px;
 
 }
-
-
+.container{
+    overflow-x: hidden;
+}
 .read {
     display: flex;
     width: 100%;
