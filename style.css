@@ -1,0 +1,557 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto Condensed", sans-serif;
+    line-height: 30px;
+
+}
+
+.container{
+    overflow-x: hidden;
+}
+.read {
+    display: flex;
+    width: 100%;
+    height: 49px;
+    background: #C21806
+}
+.book-stack {
+    margin-left: 26px;
+    display: block;
+}
+#read-our{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 21px;
+    color: #ffffff;
+    font-weight: 300;
+    transition: all 0.3s ease;
+    display: block;
+    margin-block: 10px;
+}
+.searching {
+    display: block;
+    margin-left: 840px;
+    width: 34px;
+    height: 30px;
+    padding: 6px
+}
+.sec1-foun {
+    background: rgb(255, 255, 255);
+    box-shadow: 0 1px 0 rgba(0, 0, 0, .1);
+    padding: 0 30px;
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 160px;
+}
+.ids-logo {
+    height: 85.0125px;
+    display: inline;
+    width: 270px;
+    margin-left: 120px;
+    margin-top: 33px;
+}
+.foundation-flex {
+    margin-left: 555px;
+    margin-top: -50px;
+    display: flex;
+    gap: 30px
+    
+}
+#fsize {
+    font-size: 18.6px;
+}
+.sec2-beacon {
+    background-image: url(https://idriesshahfoundation.org/wp-content/uploads/2020/12/lightgrey-motif-bg.png);
+    box-shadow: 0 1px 0 rgba(0, 0, 0, .1);
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 736px;
+}
+.sec2-beac {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 736px;
+    margin-left: 150px;
+
+}
+.heading-sec2 {
+    font-size: 43px;
+    width: 410px;
+    line-height: 50px;
+}
+#text-sec2 {
+    width: 391.85px;
+    height: 315px;
+    font: 18px;
+    
+}
+.sec2-left {
+    height: 603.4px;
+    width: 286.725px;
+}
+.btn-sec2 {
+    display: flex;
+    flex-direction: column;
+    
+}
+.sec2-btn1 {
+    width: 251px;
+    height: 42px;
+    border-radius: 10px;
+    background: #C21806;
+    border: none;
+    margin: 4px;
+    font-size: 18.72;
+}
+.btn1-text {
+    font-size: 18.72;
+    color: #fff;
+    font-weight: bold;
+}
+.sec2-btn2 {
+    width: 251px;
+    height: 42px;
+    border-radius: 10px;
+    background: #C21806;
+    border: none;
+    margin: 4px;
+    
+}
+.btn2-text {
+    font-size: 18.72;
+    color: #fff;
+    font-weight: bold;
+}
+.btn3-text {
+    font-size: 18.72;
+    color: #fff;
+    font-weight: bold;
+}
+.sec2-btn3 {
+    width: 251px;
+    height: 42px;
+    border-radius: 10px;
+    background: #02A9EE;
+    border: none;
+    margin-top: 8px;
+    margin-left: 4px;
+    font-size: 18.72;
+}
+
+.sec2-right-image-container img {
+    width: 760px;
+    height: 470px;
+    margin-top: 50px;
+    margin-left: 145px;
+    margin-right: 10px;
+    margin-bottom: 120px;
+    position: relative;
+
+}
+
+.text-overlay-sec2-image {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    background: #0000004D;
+    width: 760px;
+    height: 144px;
+    margin-left: -230px;
+    margin-top: 44px;
+    
+}
+.text-sairasha {
+    margin-top: 60px;
+    margin-left: 40px;
+}
+.sec2-text-under-overlay {
+    color: black;
+    font-size: 18px;
+    text-shadow: none;
+    text-decoration: none;
+    font-weight: normal;
+}
+.sec3-stunn {
+    background: #fff;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, .1);
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 476px;
+    gap: 30px;
+    margin-left: 150px;
+}
+.children-image-div {
+    width: 228px;
+    height: 274px;
+
+}
+.children-img {
+    margin-top: 20px;
+    width: 228px;
+    height: 274px;
+}
+.sec3-para1 {
+    margin-top: 20px;
+    width: 476px;
+    height: 296px;
+}
+.sec3-btn1 {
+    width: 151px;
+    height: 42px;
+    border-radius: 10px;
+    background: #C21806;
+    border: none;
+    margin: 4px;
+    font-size: 18.72;
+}
+.sec3-btn1-text {
+    font-size: 18.72;
+    color: #fff;
+    font-weight: bold;
+}
+.sec3-para2 {
+    margin-top: 20px;
+    width: 378px;
+    height: 354px;
+}
+.sec3-btn2 {
+    width: 251px;
+    height: 42px;
+    border-radius: 10px;
+    background: #C21806;
+    border: none;
+    margin: 4px;
+    font-size: 18.72;
+}
+.sec3-btn2-text {
+    font-size: 18.72;
+    color: #fff;
+    font-weight: bold;
+}
+.sec4-warming {
+    background-image: url(https://idriesshahfoundation.org/wp-content/uploads/2020/10/red-motif-bg.png);
+    
+    box-shadow: 0 1px 0 rgba(0, 0, 0, .1);
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 750px;
+}
+.sec4-warm {
+    width: 1519.19px;
+    height: 621.9px;
+    display: flex;
+    gap: 50px;
+    margin-left: 150px;
+}
+.sec4-img {
+    margin-top: 65px;
+    margin-left: 60px;
+}
+.round-image {
+    position: absolute;
+    top: 55px;
+    left: 73px;
+}
+.audio-story {
+    height: 40px;
+    width: 100px;
+}
+.sec4-para {
+    margin-top: 60px;
+    margin-right: 465px;
+    color: #ffffff;
+}
+.sec4-heading {
+    font-size: 43px;
+}
+.sec4-underline {
+    text-decoration: underline;
+}
+.sec4-btn1 {
+    width: 140px;
+    height: 42px;
+    border-radius: 10px;
+    border-color: gray;
+    background: #C21806;
+    margin: 4px;
+    font-size: 18.72;
+}
+.sec4-btn2 {
+    width: 140px;
+    height: 42px;
+    border-radius: 10px;
+    border-color: gray;
+    background: #C21806;
+    margin: 4px;
+    font-size: 18.72;
+}
+.sec4-btn3 {
+    width: 100px;
+    height: 42px;
+    border-radius: 10px;
+    border-color: gray;
+    background: #C21806;
+    margin: 4px;
+    font-size: 18.72;
+}
+.sec4-btn1-text{
+    font-size: 18.72;
+    color: #fff;
+    font-weight: bold;
+}
+
+
+.sec5-latest {
+    background: #fff;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, .1);
+    position: relative;
+    display: flex;
+    margin-left: 150px;
+    width: 100%;
+    height:  550px;
+}
+.sec5-part1 {
+    width: 1200px;
+    height: 117px;
+    background-color: #fff;
+}
+.sec5-head {
+    display: block;
+    font-size: 43px;
+    margin-left: 10px;
+    padding-top: 50px;
+    padding-left: 140px;
+}
+.sec5-line {
+    padding-left: 120px;
+}
+.sec5-part2 {
+    padding-top: 40px;
+    width: 1200px;
+    height: 310px;
+    display: flex;
+    gap: 20px;
+}
+.sec5-imgwith-text {
+    width: 1200;
+    height: 310.56;
+    
+}
+.sec5-img1 {
+    width: 188px;
+    height: 150px;
+    margin: 30px;
+    
+}
+.sec6-impact{
+    background-color: rgb(239, 239, 239);
+    box-shadow: 0 1px 0 rgba(0, 0, 0, .1);
+    position: relative;
+    display: inline-block;
+    width: 310.562%;
+    height: 784px;
+}
+.sec6-heading {
+    margin-top: 60px;
+    font-size: 47px;
+    margin-left: 580px;
+}
+.sec6-impa {
+    display: flex;
+    margin-left: 200px;
+    gap: 50px;
+    
+}
+.sec6-head {
+    width: 313px;
+}
+.sec6-images {
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    width: 300px;
+    align-items: center;
+}
+.linered {
+    height: 4px;
+    width: 320px;
+    background-color: #C21806;
+    margin: 30px;
+    color:  rgb(239, 239, 239);;
+}
+.par-sec6 {
+    display: flex;
+    flex-direction: row;
+}
+.sec6-btn {
+    display: flex;
+}
+
+.sec7-exp {
+    background: black;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, .1);
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 614px;
+}
+.sec7-img{
+    width: 1472px;
+    height: 614px;
+}
+.sec8-collaboration {
+    background-color: rgb(239, 239, 239);
+    box-shadow: 0 1px 0 rgba(0, 0, 0, .1);
+    position: relative;
+    width: 100%;
+    height: 280px;
+    margin-top: 20px;
+}
+.sec8-para-img{
+    background-color: rgb(239, 239, 239);
+    box-shadow: 0 1px 0 rgba(0, 0, 0, .1);
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 350px;
+    margin-top: 40px;
+}
+.sec8-img {
+    display: flex;
+    padding-left: 50px;
+    width: 900px;
+    justify-content: space-between;
+    height: 140px;
+    margin-top: 50px;
+    gap: 5px;
+}
+.sec8-para {
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.sec8img1 {
+    width: 150px;
+    height: 120px;
+    
+}
+.sec8img2 {
+    width: 150px;
+    height: 120px;
+}
+.sec8img3 {
+    width: 150px;
+    height: 120px;
+}
+.sec8img4 {
+    width: 150px;
+    height: 120px;
+}
+.sec8img5 {
+    width: 150px;
+    height: 120px;
+}
+.sec8img6 {
+    width: 150px;
+    height: 120px;
+}
+.sec8-para {
+    height: 204.5px;
+    width: 335.362px;
+}
+.sec9-contact {
+    background-color: rgb(41, 40, 40);
+    box-shadow: 0 1px 0 rgba(0, 0, 0, .1);
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 507px;
+}
+.sec9-cont {
+    width: 1260px;
+    height: 479.300px;
+    display: flex;
+    justify-content: center;
+    margin-right: 129px;
+    margin-left: 129px;
+    background-color: rgb(41, 40, 40);
+    position: relative;
+}
+.sec9-box1 {
+  width: 255px;  
+  height: 454.300px;
+  margin-right: 25px;
+  background-color: rgb(41, 40, 40);
+  padding-top: 50px;
+  color: azure;
+}
+
+.sec9-box2 {
+    width: 255px;
+    height: 262px;
+    padding-top: 50px;
+    color: azure;
+}
+.sec9-box3 {
+    width: 255px;
+    height: 270px;
+    padding-top: 50px;
+    color: azure;
+}
+.sec9-box4 {
+    width: 255px;
+    height: 87.600px;
+    padding-top: 50px;
+    color: azure;
+}
+.input1-sec9 {
+    width: 251px;
+    height: 42px;
+    border-radius: 10px;
+    background-color: #000000;
+    border: none;
+    margin: 2px;
+    
+}
+
+.sec9-subscribe{
+    background: #C21806;
+    color: #ffffff;
+    width: 107px;
+    height: 36px;
+    border-radius: 10px;
+    border: none;
+    margin: 2px;
+   
+}
+.social-media {
+    width: 137px;
+    height: 35px;
+}
+.cbox {
+    display: flex;
+    font-size: small;
+    position: absolute;
+}
+
+.foot-copy {
+    background: rgb(194, 24, 6);
+    width: 100%;
+    height: 79px;
+    
+}
+.footer-text {
+    color:#fff;
+    text-align: center;
+    padding-top: 30px;
+    
+}
+
